@@ -10,7 +10,7 @@ Internal:
 1 MHz, 8 MHz
 
 External:
-7.3728 MHz, 8 MHz, 12 MHz, 14.7456 MHz, 16 MHz, 18.432 MHz, 20 MHz
+7.3728 MHz, 8 MHz, 11.0592 MHz, 14.7456 MHz, 16 MHz, 18.432 MHz, 20 MHz
 
 Further you can choose the BOD-Level (Brown-out Detection Level) if you want the microcontroller to shut down once the supply-voltage falls under a certain level.
 
