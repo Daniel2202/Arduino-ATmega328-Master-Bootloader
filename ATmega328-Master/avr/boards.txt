@@ -22,6 +22,7 @@ atmega328_master.bootloader.high_fuses=0xDA
 
 atmega328_master.build.variant=arduino:standard
 atmega328_master.build.core=arduino:arduino
+atmega328_master.build.board=AVR_ATMEGA328_MASTER
 atmega328_master.build.mcu=atmega328p
 
 # Brown out detection
@@ -48,7 +49,7 @@ atmega328_master.menu.clock.8MHz_internal.bootloader.file=atmega/ATmegaBOOT_168_
 atmega328_master.menu.clock.8MHz_internal.build.f_cpu=8000000L
 
 atmega328_master.menu.clock.7MHz_external=7.3728 MHz (external)
-atmega328_master.menu.clock.7MHz_external.upload.speed=57600
+atmega328_master.menu.clock.7MHz_external.upload.speed=115200
 atmega328_master.menu.clock.7MHz_external.bootloader.low_fuses=0xFF
 atmega328_master.menu.clock.7MHz_external.bootloader.file=atmega/ATmegaBOOT_168_atmega328_7MHz.hex
 atmega328_master.menu.clock.7MHz_external.build.f_cpu=7372800L
@@ -59,29 +60,29 @@ atmega328_master.menu.clock.8MHz_external.bootloader.low_fuses=0xFD
 atmega328_master.menu.clock.8MHz_external.bootloader.file=atmega/ATmegaBOOT_168_atmega328_8MHz.hex
 atmega328_master.menu.clock.8MHz_external.build.f_cpu=8000000L
 
-atmega328_master.menu.clock.12MHz_external=12 MHz (external)
-atmega328_master.menu.clock.12MHz_external.upload.speed=57600
-atmega328_master.menu.clock.12MHz_external.bootloader.low_fuses=0xFF
-atmega328_master.menu.clock.12MHz_external.bootloader.file=atmega/ATmegaBOOT_168_atmega328_12MHz.hex
-atmega328_master.menu.clock.12MHz_external.build.f_cpu=12000000L
+atmega328_master.menu.clock.11MHz_external=11.0592 MHz (external)
+atmega328_master.menu.clock.11MHz_external.upload.speed=115200
+atmega328_master.menu.clock.11MHz_external.bootloader.low_fuses=0xFF
+atmega328_master.menu.clock.11MHz_external.bootloader.file=atmega/ATmegaBOOT_168_atmega328_11MHz.hex
+atmega328_master.menu.clock.11MHz_external.build.f_cpu=11059200L
 
 atmega328_master.menu.clock.14MHz_external=14.7456 MHz (external)
-atmega328_master.menu.clock.14MHz_external.upload.speed=57600
+atmega328_master.menu.clock.14MHz_external.upload.speed=115200
 atmega328_master.menu.clock.14MHz_external.bootloader.low_fuses=0xFF
 atmega328_master.menu.clock.14MHz_external.bootloader.file=atmega/ATmegaBOOT_168_atmega328_14MHz.hex
 atmega328_master.menu.clock.14MHz_external.build.f_cpu=14745600L
 
 atmega328_master.menu.clock.16MHz_external=16 MHz (external)
-atmega328_master.menu.clock.16MHz_external.upload.speed=115200
+atmega328_master.menu.clock.16MHz_external.upload.speed=38400
 atmega328_master.menu.clock.16MHz_external.bootloader.low_fuses=0xFF
 atmega328_master.menu.clock.16MHz_external.bootloader.file=atmega/ATmegaBOOT_168_atmega328_16MHz.hex
 atmega328_master.menu.clock.16MHz_external.build.f_cpu=16000000L
 
-atmega328_master.menu.clock.18_432MHz_external=18.432 MHz (external)
-atmega328_master.menu.clock.18_432MHz_external.upload.speed=115200
-atmega328_master.menu.clock.18_432MHz_external.bootloader.low_fuses=0xFF
-atmega328_master.menu.clock.18_432MHz_external.bootloader.file=atmega/ATmegaBOOT_168_atmega328_18MHz.hex
-atmega328_master.menu.clock.18_432MHz_external.build.f_cpu=18432000L
+atmega328_master.menu.clock.18MHz_external=18.4320 MHz (external)
+atmega328_master.menu.clock.18MHz_external.upload.speed=115200
+atmega328_master.menu.clock.18MHz_external.bootloader.low_fuses=0xFF
+atmega328_master.menu.clock.18MHz_external.bootloader.file=atmega/ATmegaBOOT_168_atmega328_18MHz.hex
+atmega328_master.menu.clock.18MHz_external.build.f_cpu=18432000L
 
 atmega328_master.menu.clock.20MHz_external=20 MHz (external)
 atmega328_master.menu.clock.20MHz_external.upload.speed=115200
